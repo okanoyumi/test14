@@ -1,0 +1,9 @@
+<?php
+/**
+ *
+ * Functions
+ *
+ * @package WordPress
+ **/
+
+?>

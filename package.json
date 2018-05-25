@@ -1,0 +1,31 @@
+{
+  "name": "test14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okanoyumi/test14.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okanoyumi/test14/issues"
+  },
+  "homepage": "https://github.com/okanoyumi/test14#readme",
+
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1",
+    "browser-sync": "^2.24.4",
+    "browserify": "^16.2.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
