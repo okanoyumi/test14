@@ -1,0 +1,52 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+@import 'slick';
+@import 'slick-theme';
+
+// color
+// $base:
+// $main: lightgray;
+// $accent:
+// $dark:
+
+// neat
+
+$base-grid: (
+    columns: 12,
+    gutter: 20px,
+);
+
+body {
+    background: #d3d3d3;
+
+    .nav-contents {
+        border-style: solid;
+        list-style: none;
+        @include border-color(#a60b55 #76cd9c null #e8ae1a);
+    }
+
+    // .post-container {
+    //     // display: flex;
+    //     // // align-items: center;
+    //     // justify-content: space-between;
+    //     // max-width: 1000px;
+    //     // margin: auto;
+    //     // padding: 0 10px;
+    //     @include grid-container;
+    .post-wrapper {
+        @include grid-container;
+
+        .post-container {
+            @include grid-column(4, $base-grid);
+
+            // max-width: 70%;
+            // margin-right: auto;
+            // margin-left: auto;
+
+            .post-img img{
+                max-width: 100%;
+                max-height: 100%;
+          }
+        }
+        }
+        }
